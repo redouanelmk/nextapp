@@ -7,12 +7,19 @@ const links = [
 
 export default function Nav() {
   return (
-    <nav>
-      <ul className="flex items-center justify-between p-8">
-        <li>
+    <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+      <ul className="flex i">
+        <li class="mr-6">
           <Link href="/">
-            <a className="text-blue-500 no-underline text-accent-1 dark:text-blue-300">
+            <a className="text-blue-500 no-underline hover:text-blue-800 text-accent-1 dark:text-blue-300">
               Home
+            </a>
+          </Link>
+        </li>
+        <li class="mr-6">
+        <Link href="/mapage">
+            <a className="text-blue-500 no-underline hover:text-blue-800 text-accent-1 dark:text-blue-300">
+              ma page
             </a>
           </Link>
         </li>
