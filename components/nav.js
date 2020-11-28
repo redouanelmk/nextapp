@@ -19,7 +19,7 @@ export default function Nav() {
         <li class="mr-6">
         <Link href="/mapage">
             <a className="text-blue-500 no-underline hover:text-blue-800 text-accent-1 dark:text-blue-300">
-              ma page
+              ma page 2
             </a>
           </Link>
         </li>
